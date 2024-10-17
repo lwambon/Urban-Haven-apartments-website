@@ -131,7 +131,7 @@ html{
   text-decoration: none;
   text-transform: capitalize;
   color: var(--text-colors);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding-top: 2rem;
   padding: 2.2rem;
   transform: var(--main-color) 0.3s;
@@ -153,7 +153,7 @@ color: coral;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
   border-radius: 50%;
 
   position: fixed;
@@ -169,7 +169,7 @@ color: coral;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  /*height: 100vh;*/
+  height: 100vh;
   background-position: bottom;
 }
 @media screen and (max-width: 45.06rem){
@@ -320,12 +320,12 @@ color: coral;
 }
 .spaces-card-title{
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom:2.5rem;
   text-align: center;
 }
 .spaces-card-description{
-  line-height: 1.5;
+  line-height: 1.2;
   margin-bottom: 2rem;
 }
 .spaces-card-action{
@@ -348,11 +348,11 @@ color: coral;
   font-weight:700;
   text-transform: uppercase;
   font-size: 1.4rem;
-  background-color: var(--btn-color);
+  /*background-color: var(--btn-color);*/
   border-radius: 7px;
   padding:1rem;
   outline: none;
-  color: var(--text-color);
+  /*color: var(--text-color);*/
   cursor: pointer;
 }
 @media screen and (max-width: 43.75rem) {
@@ -383,70 +383,51 @@ color: coral;
 }
 
 /*-------------------------------amenities section----------------------------*/
-.amenities-section{
-  align-items: center;
-  display: block;
-  width: 100%;
-  background-color: var(--secondary-color);
-  padding-top: 2rem;
-  padding-left: 10rem;
-}
-
 .amenities-text{
-  text-transform: capitalize;
+  margin: 1.5rem auto;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom:5rem ;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.amenities-list{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  background-color: rgb(241, 215, 184);
-  height:80vh ;
-  border-radius: 6rem;
-  padding-top: 2rem;
-  font-size: 2rem;
-  font-weight: 800;
-  color: #070707;
 }
 .amenities-list-style{
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.amenities-item{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 35rem;
+  border-radius:3 solid green;
+  box-shadow: 0 0 2.7rem;
   align-items: center;
-  line-height: 3;
-  font-family: 600;
+  justify-content: center;
+  margin: 2rem auto;
+  background:#faebd7;
 }
-
-@media screen and (max-width: 45.06rem){
-  .amenities-section{
-    width: 100%;
-    height: 100%;
-  }
-  .amenities-text{
-    font-size:1rem;
-    text-align: center;
-    justify-content: center;
-  }
-  .amenities-list{
-    font-size:1.2rem;
-    width: 100%;
-  }
+.amenities-item li{
+  list-style: none;
 }
-
+.amenities-item img {
+  width: 25rem;
+  align-items: center;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+.amenities-item p{
+  font-size:1.2rem;
+  text-align: justify;
+  margin-bottom: .7rem;
+}
 /*-------------------------------contact section------------------------------*/
 .contactus{
   text-align: center;
-  padding: 10rem;
-  background-color:var(--secondary-color);
   width: 100%;
+  margin-bottom: 1.2rem;
 }
 
 .contact-details{
-font-size:2rem;
+font-size:1.5rem;
 text-transform: capitalize;
 }
 
@@ -456,15 +437,15 @@ text-transform: capitalize;
 }
 .form-section{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
 }
 .form-section-area{
   background-color: rgb(241, 215, 184);
-  width: 85%;
-  border-radius: 10rem;
+  width: 75%;
+  border-radius: 1rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
   
@@ -513,11 +494,11 @@ text-transform: capitalize;
 .footer-section {
   background-color: rgb(32, 29, 29);
   color: var(--text-color);
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 .footer-container {
-  max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
 }
 
