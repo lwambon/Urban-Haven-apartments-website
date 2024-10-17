@@ -177,7 +177,6 @@ html {
     padding-bottom: 4rem;
   }
   .text-area {
-   
     width: 50%;
   }
 
@@ -193,7 +192,7 @@ html {
   }
 }
 
-@media screen and (max-width:22.75rem) {
+@media screen and (max-width: 22.75rem) {
   .heros-section {
     width: 100%;
     margin: 0;
@@ -209,9 +208,6 @@ html {
   .text-area {
     width: 100%;
   }
-
-
-  
 }
 
 .text-area {
@@ -236,9 +232,8 @@ html {
   padding: 2rem 3.5rem;
   display: inline-block;
   text-decoration: none;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
-
 
 /*----------------about-us styles------------------------*/
 .about-us {
@@ -322,7 +317,7 @@ html {
   display: inline-block;
   background-color: var(--secondary-color);
   width: 35rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   overflow: hidden;
 }
 
@@ -352,7 +347,7 @@ html {
   border: none;
   font-weight: 700;
   text-transform: capitalize;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   cursor: pointer;
   background-color: var(--btn-color);
   color: var(--text-color);
@@ -365,7 +360,7 @@ html {
   font-size: 1.4rem;
   padding: 1rem;
   outline: none;
-  
+
   cursor: pointer;
 }
 
@@ -405,16 +400,16 @@ html {
   flex-wrap: wrap;
   flex-direction: column;
   width: 38rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   box-shadow: 0 0 2.7rem;
   align-items: center;
   justify-content: center;
   margin: 2rem auto;
   background: #faebd7;
 }
-.amenities-item:hover{
-  background-color:var(--primary-color);
-  transition: .6s;
+.amenities-item:hover {
+  background-color: var(--primary-color);
+  transition: 0.6s;
   color: white;
 }
 .amenities-item li {
@@ -442,36 +437,34 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   margin: 1.6rem auto;
   font-size: 1.5rem;
   text-transform: capitalize;
-  
 }
-.contact-form-card{
-  width:54%;
+.contact-form-card {
+  width: 54%;
 }
-.contact-info-section{
+.contact-info-section {
   width: 43%;
   margin: auto;
   align-items: center;
   justify-content: center;
 }
-.contact-area h3{
+.contact-area h3 {
   text-align: center;
   text-transform: capitalize;
   color: black;
-  
 }
-.contact-icon{
+.contact-icon {
   display: flex;
   flex-wrap: wrap;
-  padding:6rem;
+  padding: 6rem;
   gap: 3rem;
   margin-top: 2rem;
   color: #070707;
 }
-.contact-items{
+.contact-items {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -480,7 +473,6 @@ html {
   padding: 3rem;
   width: 40rem;
 }
-
 
 .contact-text-details {
   padding-top: 2.5rem;
@@ -505,7 +497,7 @@ html {
   padding-right: 1rem;
 }
 
-.form-area-input{
+.form-area-input {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -514,7 +506,7 @@ html {
 .form-section-area label input {
   flex-direction: column;
   font-weight: 400;
-  margin:1.5rem;
+  margin: 1.5rem;
   padding: 2rem;
 }
 
@@ -523,8 +515,8 @@ html {
   width: 97%;
   padding: 1.8rem;
   margin: 1.5rem;
-  border: .2rem;
-  border-radius: .8rem;
+  border: 0.2rem;
+  border-radius: 0.8rem;
 }
 
 .form-section-area button {
@@ -533,7 +525,7 @@ html {
   color: var(--text-color);
   border: none;
   cursor: pointer;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   width: max-content;
   align-items: center;
   justify-content: center;
@@ -554,42 +546,37 @@ html {
   .contact-details {
     flex-direction: column;
   }
-  .contact-form-card{
+  .contact-form-card {
     width: 100%;
   }
-  
-  .contact-icon{
-    padding:3rem;
+
+  .contact-icon {
+    padding: 3rem;
     gap: 5rem;
-    
   }
-  .contact-items{
+  .contact-items {
     font-size: 1.8rem;
     width: 100rem;
   }
-  
-  
+
   .contact-text-details {
     padding: 3rem;
-   
   }
- 
 }
 
-@media screen and (max-width: 53.75rem){
-  .contact-items{
+@media screen and (max-width: 53.75rem) {
+  .contact-items {
     max-width: max-content;
     padding: 6rem;
     margin: auto;
   }
-  .contact-items p{
-    font-size:1.2rem;
+  .contact-items p {
+    font-size: 1.2rem;
     text-align: justify;
     margin: auto;
-    padding: .9rem 0;
+    padding: 0.9rem 0;
   }
 }
-
 
 /*----------------------------------footer section----------------------*/
 .footer-section {
@@ -637,7 +624,7 @@ html {
 }
 .social-media-icons a {
   padding-top: 1rem;
-  margin-right:  3rem;
+  margin-right: 3rem;
   justify-content: center;
   align-items: center;
   margin: auto;
