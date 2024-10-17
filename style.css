@@ -177,7 +177,7 @@ html {
     padding-bottom: 4rem;
   }
   .text-area {
-    /*height: 100%;*/
+   
     width: 50%;
   }
 
@@ -191,6 +191,27 @@ html {
   .heros-link {
     padding: 1rem 2rem;
   }
+}
+
+@media screen and (max-width:22.75rem) {
+  .heros-section {
+    width: 100%;
+    margin: 0;
+  }
+
+  .heros-text {
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 1;
+    padding-left: 1rem;
+    margin-right: 2rem;
+  }
+  .text-area {
+    width: 100%;
+  }
+
+
+  
 }
 
 .text-area {
@@ -522,6 +543,68 @@ html {
 .form-section-area button:hover {
   background-color: rgb(187, 178, 178);
   color: black;
+}
+
+@media screen and (max-width: 53.75rem) {
+  .contact-items{
+    width:100%;
+    display: flex;
+  }
+
+  .contact-details {
+    flex-direction: column;
+  }
+  .contact-form-card{
+    width: 100%;
+  }
+  
+  .contact-icon{
+    padding:3rem;
+    gap: 5rem;
+    
+  }
+  .contact-items{
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  
+  
+  .contact-text-details {
+    padding: 3rem;
+   
+  }
+ 
+}
+
+@media screen and (max-width: 53.75rem){
+  .contact-items{
+    width:40rem;
+    padding: 4rem;
+  }
+
+  .contact-details {
+    flex-direction: column;
+  }
+  .contact-form-card{
+    width: 100%;
+  }
+  
+  .contact-icon{
+    padding:3rem;
+    gap: 5rem;
+    
+  }
+  .contact-items{
+    font-size: 1.8rem;
+    width: 100rem;
+  }
+  
+  
+  .contact-text-details {
+    padding: 3rem;
+   
+  }
+
 }
 
 
