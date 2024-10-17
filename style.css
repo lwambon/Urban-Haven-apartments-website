@@ -566,9 +566,11 @@ html {
 
 @media screen and (max-width: 53.75rem) {
   .contact-items {
-    max-width: max-content;
-    padding: 6rem;
+    width:300rem;
+    padding: 2rem;
     margin: auto;
+    align-items: center;
+    justify-content: center;
   }
   .contact-items p {
     font-size: 1.2rem;
